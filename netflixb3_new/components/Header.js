@@ -17,7 +17,7 @@ function Header() {
     })
 
     return (
-        <div className= 'fixed top-0 h-12 w-full items-center'>
+        <div className= 'fixed top-0 h-12 z-10 w-full items-center'>
             <div className='flex justify-between'>
                 <img src='https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Netflix_2015_logo.svg/1920px-Netflix_2015_logo.svg.png?20190206123158' 
                 alt=''
