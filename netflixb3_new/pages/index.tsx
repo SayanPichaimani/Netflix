@@ -22,9 +22,9 @@ const Home: NextPage = () => {
     
     <Row title="NETFLIX ORIGINALS" fetchURL={requests.fetchNetflixOriginals} isLargeRow/>
 
-    <Row title="Trending" fetchURL={requests.fetchTrending} />
+    <Row title="Tendances" fetchURL={requests.fetchTrending} />
 
-    <Row title="Top rated" fetchURL={requests.fetchTopRated} />
+    <Row title="Les plus gros succès" fetchURL={requests.fetchTopRated} />
 
     <Row title="Action" fetchURL={requests.fetchActionMovies} />
 
